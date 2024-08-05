@@ -32,12 +32,12 @@
             "styles": [
               "src/styles.scss",
               {
-                "input": "node_modules/primeng/resources/themes/md-dark-deeppurple/theme.css",
+                "input": "src/theme-config/scss/dark-theme.scss",
                 "bundleName": "dark-theme",
                 "inject": false
               },
               {
-                "input": "node_modules/primeng/resources/themes/md-light-deeppurple/theme.css",
+                "input": "src/theme-config/scss/light-theme.scss",
                 "bundleName": "light-theme",
                 "inject": false
               },
@@ -50,8 +50,8 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "3mb",
+                  "maximumError": "3mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -103,12 +103,12 @@
             "styles": [
               "src/styles.scss",
               {
-                "input": "node_modules/primeng/resources/themes/md-dark-deeppurple/theme.css",
+                "input": "src/theme-config/scss/dark-theme.scss",
                 "bundleName": "dark-theme",
                 "inject": false
               },
               {
-                "input": "node_modules/primeng/resources/themes/md-light-deeppurple/theme.css",
+                "input": "src/theme-config/scss/light-theme.scss",
                 "bundleName": "light-theme",
                 "inject": false
               },

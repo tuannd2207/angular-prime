@@ -1,6 +1,6 @@
-import { NgModule } from '@angular/core';
-import { HashLocationStrategy, LocationStrategy, PathLocationStrategy } from '@angular/common';
-import { AppComponent } from './app.component';
+import {NgModule} from '@angular/core';
+import {LocationStrategy, PathLocationStrategy} from '@angular/common';
+import {AppComponent} from './app.component';
 import {NotfoundComponent} from "./main/components/notfound/notfound.component";
 import {AppLayoutModule} from "./layout/app.layout.module";
 import {CustomerService} from "./main/service/customer.service";

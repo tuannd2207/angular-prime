@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @import "theme-config/scss/layout/layout.css";
 /* PrimeNG */
+//@import "theme-config/scss/mytheme/theme.scss";
 @import "primeng/resources/primeng.min.css";
 @import "primeflex/primeflex.scss";
 @import "primeicons/primeicons.css";
+@import "theme-config/scss/element/icons/icon.scss";
